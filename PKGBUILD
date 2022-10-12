@@ -16,7 +16,7 @@ conflicts=()
 source=("https://download-cdn.jetbrains.com/fleet/installers/linux_x64/${_name}-${pkgver}.tar.gz"
         "${pkgname}.desktop")
 sha256sums=('0e233e000651667b25072d0892ac69ebb31da93b7169dfdf2016efa68a2b094e'
-            '7e50bf749c1575139469b40b073e90e6aa1e28dfbc71d2c6ddc4650176aa78a1')
+            'f925258e3aceb9642c1d4f2e0a96b848b2f21f2ca9cda94848e732cdf0791870')
 
 
 package() {
