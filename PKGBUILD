@@ -7,6 +7,7 @@ pkgdesc="The next-generation IDE by JetBrains"
 arch=('x86_64')
 url="https://www.jetbrains.com/fleet/"
 license=('custom')
+# todo: deps and settings
 depends=()
 makedepends=()
 checkdepends=()
@@ -23,6 +24,7 @@ package() {
   local _dest="${pkgdir}/opt/${pkgname}"
   local _share="${pkgdir}/usr/share"
 
+  # todo: license file in standard location
   install -Dm644 "${pkgname}.desktop" "${_share}/applications/${pkgname}.desktop"
 
   cd "${_name}"
